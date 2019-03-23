@@ -40,6 +40,8 @@ lib.makeScope pkgs.newScope (self: with self; {
 
   thunar-dropbox-plugin = callPackage ./thunar-plugins/dropbox { };
 
+  thunar-nilfs2-plugin = callPackage ./thunar-plugins/nilfs2 { };
+
   tumbler = callPackage ./core/tumbler.nix { };
 
   # TODO: impure plugins from /run/current-system/sw/lib/xfce4
